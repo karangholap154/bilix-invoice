@@ -100,7 +100,6 @@ export const CURRENCIES: Currency[] = [
   { code: 'BAM', name: 'Bosnia-Herzegovina Convertible Mark', symbol: 'KM' },
   { code: 'MKD', name: 'Macedonian Denar', symbol: 'ден' },
   { code: 'ALL', name: 'Albanian Lek', symbol: 'L' },
-  { code: 'EUR', name: 'Euro', symbol: '€' },
 ];
 
 export function getCurrencySymbol(currencyCode: string): string {
